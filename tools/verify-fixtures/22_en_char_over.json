@@ -1,0 +1,16 @@
+{
+  "_expect": {
+    "status": "FAIL",
+    "must_failed": [
+      "char_count",
+      "source_marker",
+      "language_ratio",
+      "emoji_count",
+      "senses"
+    ],
+    "exit_code": 2
+  },
+  "locale": "en",
+  "retry": 0,
+  "_comment": "en must違反: char_count超過 (~826 words)"
+}

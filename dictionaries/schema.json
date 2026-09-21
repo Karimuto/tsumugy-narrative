@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tsumugy Dictionary",
+  "description": "Emotion and five-senses vocabulary for narrative generation",
+  "type": "object",
+  "required": [
+    "sight", "sound", "smell", "taste", "touch",
+    "fear", "joy", "sadness", "anger", "surprise", "disgust"
+  ],
+  "properties": {
+    "sight":     {"type": "array", "minItems": 100, "maxItems": 200, "items": {"type": "string"}, "uniqueItems": true},
+    "sound":     {"type": "array", "minItems": 100, "maxItems": 200, "items": {"type": "string"}, "uniqueItems": true},
+    "smell":     {"type": "array", "minItems": 100, "maxItems": 200, "items": {"type": "string"}, "uniqueItems": true},
+    "taste":     {"type": "array", "minItems": 100, "maxItems": 200, "items": {"type": "string"}, "uniqueItems": true},
+    "touch":     {"type": "array", "minItems": 100, "maxItems": 200, "items": {"type": "string"}, "uniqueItems": true},
+    "fear":      {"type": "array", "minItems": 100, "maxItems": 200, "items": {"type": "string"}, "uniqueItems": true},
+    "joy":       {"type": "array", "minItems": 100, "maxItems": 200, "items": {"type": "string"}, "uniqueItems": true},
+    "sadness":   {"type": "array", "minItems": 100, "maxItems": 200, "items": {"type": "string"}, "uniqueItems": true},
+    "anger":     {"type": "array", "minItems": 100, "maxItems": 200, "items": {"type": "string"}, "uniqueItems": true},
+    "surprise":  {"type": "array", "minItems": 100, "maxItems": 200, "items": {"type": "string"}, "uniqueItems": true},
+    "disgust":   {"type": "array", "minItems": 100, "maxItems": 200, "items": {"type": "string"}, "uniqueItems": true}
+  }
+}

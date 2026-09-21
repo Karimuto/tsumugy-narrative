@@ -1,0 +1,14 @@
+{
+  "_expect": {
+    "status": "FAIL",
+    "must_failed": [
+      "char_count",
+      "source_marker"
+    ],
+    "exit_code": 2
+  },
+  "_comment": "ja must違反: emoji重複 🚪🐈 が各6回",
+  "text": "🚪🚪🚪🚪🚪🚪夜の街角で、🐈🐈🐈🐈🐈🐈猫が震えていた。指先が冷たい。声が聞こえる。胸が痛い。光は滲んでいた。匂いがする。涙が頬を伝う。喉が震える。遠くで犬が吠える。焚き火の熱が肌に届く。私は立ち尽くしていた。",
+  "locale": "ja",
+  "retry": 0
+}

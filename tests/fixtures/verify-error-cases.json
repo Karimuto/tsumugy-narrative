@@ -1,0 +1,74 @@
+[
+  {
+    "name": "err_empty",
+    "text": "",
+    "locale": "ja",
+    "expected_status": "FAIL",
+    "expected_must_failed_any": ["char_count"]
+  },
+  {
+    "name": "err_non_string",
+    "text": 123,
+    "locale": "ja",
+    "expected_status": "FAIL",
+    "expected_must_failed_any": ["invalid_input"]
+  },
+  {
+    "name": "err_bracket_period",
+    "text": "テスト『括弧の中に句点。』が入っている。光が滲み、音が聞こえ、匂いが漂い、涙が頬を伝う。胸が締め付けられる。私は立ち尽くしていた。この長い物語のテキスト部分は最低二百字以上にする必要があります。冬の朝、街角を猫が徘徊していた。影が長く伸び、通りには微かな光が滲んでいた。光が滲み、音が聞こえ、匂いが漂い、涙が頬を伝う。胸が締め付けられる。",
+    "locale": "ja",
+    "expected_status": "FAIL",
+    "expected_must_failed_any": ["bracket_period"]
+  },
+  {
+    "name": "err_no_source",
+    "text": "冬の街角を猫が徘徊していた。影が長く伸び、通りには微かな光が滲んでいた。光が滲み、音が聞こえ、匂いが漂い、涙が頬を伝う。胸が締め付けられる。私は立ち尽くしていた。光が滲み、音が聞こえ、匂いが漂い、涙が頬を伝う。胸が締め付けられる。私は立ち尽くしていた。音が聞こえ、匂いが漂う。涙が頬を伝い、胸が締め付けられる。",
+    "locale": "ja",
+    "expected_status": "FAIL",
+    "expected_must_failed_any": ["source_marker"]
+  },
+  {
+    "name": "err_no_emoji_low_senses",
+    "text": "テスト。光。音。匂い。涙。胸。",
+    "locale": "ja",
+    "expected_status": "FAIL",
+    "expected_must_failed_any": ["char_count"]
+  },
+{
+    "name": "err_too_many_emoji",
+    "text": "## 物語\n### 冬の朝\n『庭の灯』🌟（灯）🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟冬の朝を歩いていた。影が长く伸び、通りには微かな光が滲んでいた。光が滲み、音が聞こえ、匂いが漂い、涙が頬を伝う。\n\n胸が締め付けられる。私は立ち尽くしていた。音が聞こえ、光が滲み、匂いが漂い、涙が頬を传う。胸が締め付けられる。私は立ち尽くしていた。\n\n光が滲み、音が聞こえ、匂いが漂い、涙が頬を传う。私は静かに歩き続けた。音が聞こえ、匂いが漂い、涙が頬を传い、胸が締め付けられる。\n\n私は再び立ち止まり、光が滲み、匂いが漂い、音に耳を澄ませた。私は思った。冬の风が吹き抜ける。鳥が鳴いている。空が青い。\n\n夜が更けて雨音だけが残り、明日への願いを静かに胸に抱いた。\n> 出典: 第1章 p.1 / 段落1",
+    "locale": "ja",
+    "expected_status": "CONDITIONAL PASS",
+    "expected_should_failed_any": ["emoji_count"],
+    "sources": {"kind": "paged", "entries": [{"chapter": 1, "page": 1, "para": 1}]}
+  },
+{
+    "name": "err_no_senses",
+    "text": "ある朝、私は起きた。何かが足りない気がした。私は立ち止まって思った。世界のどこかで誰かが同じことを考えている。時間が止まったように感じた。私は再び歩き始めた。別の日、私はまた起きた。何かが足りない気がして、私は立ち止まった。また別の日、私はまた起きた。何かが足りない気がして、私は立ち止まった。また別的日、私はまた起きた。何かが足りない気がして、私は歩き続けた。また别的日、我又起きた。何かが足りない気がして、我停下思考。\n> 出典: 第1章 p.1 / 段落1",
+    "locale": "ja",
+    "expected_status": "FAIL",
+    "expected_must_failed_any": ["emoji_count", "char_count"],
+    "sources": {"kind": "paged", "entries": [{"chapter": 1, "page": 1, "para": 1}]}
+  },
+  {
+    "name": "err_low_lang_ratio",
+    "text": "This is mostly English text but supposedly Japanese. 冬の街角を歩いていた。This is English inserted. もっと英語のテキストが混ざっている。I am writing in English here. もっとEnglishを増やす。This is yet more English text. もっと増やす。I love English. もっともっと英語English English.",
+    "locale": "ja",
+    "expected_status": "FAIL",
+    "expected_must_failed_any": ["language_ratio", "char_count"]
+  },
+  {
+    "name": "err_unsupported_locale",
+    "text": "test",
+    "locale": "xx",
+    "expected_status": "FAIL",
+    "expected_must_failed_any": ["unsupported_locale"]
+  },
+  {
+    "name": "err_char_too_low",
+    "text": "短すぎ。",
+    "locale": "ja",
+    "expected_status": "FAIL",
+    "expected_must_failed_any": ["char_count"]
+  }
+]

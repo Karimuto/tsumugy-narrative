@@ -1,0 +1,15 @@
+{
+  "_expect": {
+    "status": "FAIL",
+    "exit_code": 2,
+    "must_failed": [
+      "char_count",
+      "source_marker",
+      "emoji_count"
+    ]
+  },
+  "_comment": "3連続NG: retry=3 でも must違反 → escalate 期待",
+  "text": "胸が締め付けられた。光は滲んでいた。声が聞こえる。",
+  "locale": "ja",
+  "retry": 3
+}

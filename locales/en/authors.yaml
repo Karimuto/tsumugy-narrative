@@ -1,0 +1,61 @@
+locale: en
+authors:
+  - name: Fyodor Dostoevsky
+    era: 1821-1881
+    one_liner: inner turmoil and moral pressure
+    ng_examples:
+      - 心は鏡
+  - name: Lu Xun
+    era: 1881-1936
+    one_liner: sharp gaze at society through small lives
+    ng_examples:
+      - 教育は工場
+  - name: Ernest Hemingway
+    era: 1899-1961
+    one_liner: plain surface with weight below
+    ng_examples:
+      - 死は敗北
+  - name: Gabriel Garcia Marquez
+    era: 1927-2014
+    one_liner: wonder treated as everyday fact
+    ng_examples:
+      - 宇宙は意識
+  - name: Osamu Dazai
+    era: 1909-1948
+    one_liner: fragile first person honesty
+    ng_examples:
+      - 子どもは白紙
+  - name: Milan Kundera
+    era: 1929-2023
+    one_liner: playful thought inside the scene
+    ng_examples:
+      - 心はOS
+  - name: Naguib Mahfouz
+    era: 1911-2006
+    one_liner: crowded street polyphony
+    ng_examples:
+      - 子どもは粘土
+  - name: Toni Morrison
+    era: 1931-2019
+    one_liner: memory carried in body and place
+    ng_examples:
+      - 量子は意志
+      - ウイルスは敵
+      - 進化は彫刻
+      - 精神は幽霊
+  - name: Virginia Woolf
+    era: 1882-1941
+    one_liner: waves of inner time
+    ng_examples: []
+  - name: Ursula K. Le Guin
+    era: 1929-2018
+    one_liner: thought carried without ballast
+    ng_examples: []
+  - name: Kurt Vonnegut
+    era: 1922-2007
+    one_liner: plain absurd compassion
+    ng_examples: []
+  - name: Franz Kafka
+    era: 1883-1924
+    one_liner: precise bureaucratic dread
+    ng_examples: []

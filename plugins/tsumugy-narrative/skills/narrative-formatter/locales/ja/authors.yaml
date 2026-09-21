@@ -1,0 +1,61 @@
+locale: ja
+authors:
+  - name: Fyodor Dostoevsky
+    era: 1821-1881
+    one_liner: 内面の葛藤と道徳的圧力
+    ng_examples:
+      - 心は鏡
+  - name: Lu Xun
+    era: 1881-1936
+    one_liner: 小さな生を通した社会への鋭い眼差し
+    ng_examples:
+      - 教育は工場
+  - name: Ernest Hemingway
+    era: 1899-1961
+    one_liner: 重みを秘めた平易な表面
+    ng_examples:
+      - 死は敗北
+  - name: Gabriel Garcia Marquez
+    era: 1927-2014
+    one_liner: 日常としての驚異
+    ng_examples:
+      - 宇宙は意識
+  - name: Osamu Dazai
+    era: 1909-1948
+    one_liner: 脆い一人称の誠実さ
+    ng_examples:
+      - 子どもは白紙
+  - name: Milan Kundera
+    era: 1929-2023
+    one_liner: 場面に溶けた遊戯的思考
+    ng_examples:
+      - 心はOS
+  - name: Naguib Mahfouz
+    era: 1911-2006
+    one_liner: 群衆通りの多声
+    ng_examples:
+      - 子どもは粘土
+  - name: Toni Morrison
+    era: 1931-2019
+    one_liner: 身体と場所に宿る記憶
+    ng_examples:
+      - 量子は意志
+      - ウイルスは敵
+      - 進化は彫刻
+      - 精神は幽霊
+  - name: 川端康成
+    era: 1899-1972
+    one_liner: 雪と沈黙の美しさ
+    ng_examples: []
+  - name: 芥川龍之介
+    era: 1892-1927
+    one_liner: 一閃と残る疑い
+    ng_examples: []
+  - name: 吉本ばなな
+    era: 1964-
+    one_liner: 温かく発光する悲しみ
+    ng_examples: []
+  - name: 村上春樹
+    era: 1949-
+    one_liner: 日常の街に滑り込む夢
+    ng_examples: []

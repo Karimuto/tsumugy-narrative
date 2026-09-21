@@ -1,0 +1,10 @@
+{
+  "_expect": {
+    "status": "PASS",
+    "must_failed": [],
+    "exit_code": 0
+  },
+  "text": "On a dark street corner, a cat trembled in the cold 🌙✨🔥📚🎵🌟. The faint whisper of a voice cut through the silence and my chest tightened. Who are you? asked the shadow, and the light began to fade. A bitter scent of rain lingered in the air, and my fingertips went numb with cold. The throat of night closed around me. I could feel the heat of distant fires on my skin, and tears traced my cheeks. A dog barked somewhere far away, and the smell of smoke drifted in. The world was trembling, and so was my body. Cold wind brushed my cheek, and the moon lit the narrow alley. Old cobblestones lay underfoot, casting long shadows in the pale glow. Footsteps echoed somewhere far away, but I could not tell who was approaching through the dim light. The night was quiet, and the smell of rain returned. [Source: 4.txt, p.2]",
+  "locale": "en",
+  "retry": 0
+}

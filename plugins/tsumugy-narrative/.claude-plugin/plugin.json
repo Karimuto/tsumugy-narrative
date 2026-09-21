@@ -1,0 +1,11 @@
+{
+  "name": "tsumugy-narrative",
+  "description": "Turn textbook passages into memorable stories with source markers",
+  "version": "0.1.0",
+  "author": {
+    "name": "Karimuto",
+    "url": "https://github.com/Karimuto/tsumugy-narrative"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/Karimuto/tsumugy-narrative"
+}

@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.DS_Store
+*.log
+.pytest_cache/
+
+# Generated verification output
+tools/verify-results/
+docs/verify-test-report.md
+
+# Private / local scratch (never commit)
+_private/
+marketing/
+*.tmp
+_temp/
+docs/submit/
+docs/adr/
+
+# Historical / local-only (untracked, never commit)
+
+samples/

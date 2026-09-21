@@ -1,0 +1,16 @@
+{
+  "name": "tsumugy",
+  "description": "Tsumugy-Narrative: textbook passages into memorable, traceable stories",
+  "owner": {
+    "name": "Karimuto",
+    "url": "https://github.com/Karimuto/tsumugy-narrative"
+  },
+  "plugins": [
+    {
+      "name": "tsumugy-narrative",
+      "source": "./plugins/tsumugy-narrative",
+      "description": "Turn textbook passages into memorable stories with source markers",
+      "version": "0.1.0"
+    }
+  ]
+}
